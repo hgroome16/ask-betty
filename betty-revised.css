@@ -247,3 +247,36 @@ body:not(.cc-admin) .cc-voice .cc-mic svg.betty-mic-label{position:absolute!impo
 .betty-mic-ribbon-edge{stroke:#f46b72;stroke-width:39}
 .betty-mic-ribbon{stroke:#147b80;stroke-width:33}
 .betty-mic-label text{font-size:26px;letter-spacing:.5px;fill:#fffbed;paint-order:stroke fill;stroke:#004d71;stroke-width:.6px}
+
+/* Carry the approved Betty lockup and fruit palette into the client dashboard. */
+body.cc-admin{background:#fffbed!important}
+body.cc-admin .cc-admin-sidebar{background:linear-gradient(180deg,#fffbed 0%,#e0f3eb 60%,#c8e8dc 100%)!important;border-right:2px solid #168f9140;color:#182b59!important}
+body.cc-admin .cc-admin-sidebar .cc-brand{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;width:100%!important;min-width:0;gap:0!important;margin:0 0 24px!important;padding:12px 0 18px;box-sizing:border-box;background:url('assets/betty-tropical-frame.png') center/100% 100% no-repeat}
+body.cc-admin .cc-admin-sidebar .cc-brand .betty-illustrated-logo{display:block!important;position:static!important;width:180px!important;max-width:100%!important;height:114px!important;object-fit:contain!important;filter:none!important;background:transparent!important;transform:none!important;margin:0!important}
+body.cc-admin .cc-brand .betty-attribution{display:flex!important;align-items:center;justify-content:center;gap:4px!important;color:#182b59!important;font:italic 16px Georgia,serif!important;margin:0!important}
+body.cc-admin .cc-brand .quickhits-logo-window{position:relative!important;display:block!important;width:112px!important;height:32px!important;padding:0!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important}
+body.cc-admin .cc-brand .quickhits-logo-window img{display:block!important;position:static!important;inset:auto!important;width:100%!important;max-width:100%!important;height:100%!important;object-fit:contain!important;filter:none!important;background:transparent!important;border:0!important;box-shadow:none!important;margin:0!important;transform:none!important}
+body.cc-admin .cc-admin-sidebar .betty-territory{display:block!important;color:#182b59!important;font-size:10px!important;text-align:center;margin-top:8px;letter-spacing:.3px}
+body.cc-admin .cc-admin-sidebar nav a,body.cc-admin .cc-admin-sidebar>a,body.cc-admin .cc-admin-menu summary{color:#182b59!important}
+body.cc-admin .cc-admin-sidebar nav a:hover{background:#ffe4a7!important}
+body.cc-admin .cc-admin-sidebar nav a[aria-current=page]{background:#f46b72!important;color:#182b59!important;box-shadow:0 3px 0 #c7445440}
+body.cc-admin .cc-admin-main{background:linear-gradient(135deg,#fffbed,#f8eee5 50%,#e8f5ec)!important}
+body.cc-admin .cc-admin-main h1{color:#182b59!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+1){border-top:5px solid #f46b72!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+2){border-top:5px solid #efb642!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+3){border-top:5px solid #168f91!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+4){border-top:5px solid #9f7ac7!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+1)>h2{background:#ffe0de!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+2)>h2{background:#ffe9b8!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+3)>h2{background:#caeae2!important}
+body.cc-admin .cc-kpis .cc-panel:nth-child(4n+4)>h2{background:#eadff6!important}
+body.cc-admin .cc-admin-columns .cc-panel:nth-child(3n+1)>h2{background:#ffe0de!important}
+body.cc-admin .cc-admin-columns .cc-panel:nth-child(3n+2)>h2{background:#ffe9b8!important}
+body.cc-admin .cc-admin-columns .cc-panel:nth-child(3n+3)>h2{background:#caeae2!important}
+@media(max-width:768px){
+ body.cc-admin .cc-admin-sidebar .cc-brand{width:155px!important;flex:0 0 155px;margin:0!important;padding:4px 0 8px}
+ body.cc-admin .cc-admin-sidebar .cc-brand .betty-illustrated-logo{width:132px!important;height:82px!important}
+ body.cc-admin .cc-brand .quickhits-logo-window{width:88px!important;height:25px!important}
+ body.cc-admin .cc-brand .betty-attribution{font-size:13px!important}
+ body.cc-admin .cc-admin-sidebar .betty-territory{font-size:8px!important;margin-top:4px}
+}
