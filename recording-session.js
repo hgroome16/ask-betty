@@ -15,13 +15,24 @@ class QuickHitsRecorder{
  const stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true},video:false});if(!this.active){stream.getTracks().forEach(t=>t.stop());return;}this.stream=stream;
  const Context=window.AudioContext||window.webkitAudioContext;this.context=new Context();await this.context.resume();if(!this.active){this.release();return;}
  this.chunks=[];this.rate=this.context.sampleRate;this.source=this.context.createMediaStreamSource(stream);this.processor=this.context.createScriptProcessor(4096,1,1);this.source.connect(this.processor);this.processor.connect(this.context.destination);this.recording=true;
- let heard=false,lastSound=Date.now();this.processor.onaudioprocess=e=>{if(!this.active||!this.recording)return;const samples=e.inputBuffer.getChannelData(0);this.chunks.push(new Float32Array(samples));let energy=0;for(const n of samples)energy+=n*n;if(Math.sqrt(energy/samples.length)>.012){heard=true;lastSound=Date.now();}if(heard&&Date.now()-lastSound>2400)this.stop();};
- this.state('listening','Speak now. Pause when finished, or tap the microphone again.');this.limit=setTimeout(()=>this.stop(),30000);
+ this.endDetector=new SpeechEndDetector();this.processor.onaudioprocess=e=>{if(!this.active||!this.recording)return;const samples=e.inputBuffer.getChannelData(0);this.chunks.push(new Float32Array(samples));let energy=0;for(const n of samples)energy+=n*n;if(this.endDetector.update(Math.sqrt(energy/samples.length),samples.length/this.rate*1000))this.stop();};
+ this.state('listening','Speak now. I’ll send your question automatically when you finish.');this.limit=setTimeout(()=>this.endDetector.heard?this.stop():this.fail('I didn’t hear any speech. Tap the microphone and try again.'),30000);
  }catch(e){if(this.active)this.fail(e.name==='NotAllowedError'?'Microphone access is blocked. Allow microphone access for this page, then try again.':e.name==='NotFoundError'?'No microphone was found. Connect one and try again.':e.message||'Could not open the microphone.');}}
  stop(){if(!this.active)return;if(!this.recording){this.abort();return;}this.recording=false;this.release();this.state('thinking','Turning your question into text…');this.transcribe();}
  async transcribe(){try{const pcm=encodeWav(this.chunks,this.rate);if(pcm.byteLength<3244)throw Error('No speech captured. Please try again.');const blob=new Blob([pcm],{type:'audio/wav'});const audio=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result.split(',')[1]);r.onerror=reject;r.readAsDataURL(blob);});if(!this.active)return;
  const response=await fetch('/api/transcribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({audio,mime:'audio/wav'}),signal:AbortSignal.any([this.controller.signal,AbortSignal.timeout(55000)])});const result=await response.json();if(!this.active)return;if(!response.ok)throw Error(result.error||'Speech recognition is unavailable.');const text=String(result.text||'').trim();if(!text)throw Error('I didn’t catch any words. Speak closer to your microphone and try again.');this.write((this.base+' '+text).trim());this.active=false;this.state('idle');this.complete(text);
  }catch(e){if(this.active)this.fail(e.message||'Could not transcribe your question.');}}
 }
-if(typeof module!=='undefined')module.exports={QuickHitsRecorder,encodeWav};else {root.QuickHitsRecorder=QuickHitsRecorder;root.JBS_AUDIO={encodeWav};}
+// Measure the room's noise floor, then end the turn after speech followed by a quiet pause.
+class SpeechEndDetector{
+ constructor({pauseMs=1600}={}){this.pauseMs=pauseMs;this.calibrationMs=0;this.noise=.004;this.voicedMs=0;this.quietMs=0;this.heard=false;}
+ update(rms,frameMs){
+  if(this.calibrationMs<250){this.noise=this.calibrationMs===0?rms:Math.min(this.noise,rms);this.calibrationMs+=frameMs;return false;}
+  const threshold=Math.max(.008,this.noise*2.5);
+  if(rms>threshold){this.voicedMs+=frameMs;this.quietMs=0;if(this.voicedMs>=180)this.heard=true;}
+  else {this.noise=this.noise*.98+rms*.02;this.quietMs+=frameMs;if(!this.heard)this.voicedMs=0;}
+  return this.heard&&this.quietMs>=this.pauseMs;
+ }
+}
+if(typeof module!=='undefined')module.exports={QuickHitsRecorder,encodeWav,SpeechEndDetector};else {root.QuickHitsRecorder=QuickHitsRecorder;root.JBS_AUDIO={encodeWav};}
 })(typeof window==='undefined'?{}:window);
