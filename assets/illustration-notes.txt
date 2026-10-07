@@ -1,0 +1,7 @@
+Created with the built-in image generation tool using the supplied locked design.
+
+Assets: betty-tropical-frame.png, ask-betty-illustrated.png, betty-mic-badge.png.
+
+Prompts: Hand-illustrated tropical frame with ink outlines, hibiscus, green foliage, pineapple, citrus, pale aqua clouds, ocean and mountains; transparent center and no UI/text. Compact Ask Betty script logo with matching sun, clouds, foliage, fruit and a microphone, no additional lettering. Circular idle microphone badge with white leaf, navy/aqua outline, tropical foliage and landscape, no labels.
+
+The interface retains the C&C controllers and routes. Account names, meetings and figures are presentation copy.

@@ -1,0 +1,1002 @@
+{
+  "crm": {
+    "accounts": [
+      {
+        "id": "a1",
+        "name": "Harbor Wellness",
+        "city": "Boston",
+        "state": "MA",
+        "status": "Active",
+        "background": "Neighborhood shop with a welcoming, education-first approach. The buying team favors a focused edible selection, clear product information and easy conversations for customers trying fruit chews for the first time.",
+        "next_action": "Build a concise fruit-chew assortment for the front counter.",
+        "contact": "Taylor Morgan",
+        "role": "Category Buyer",
+        "analytics_name": "Harbor Wellness"
+      },
+      {
+        "id": "a2",
+        "name": "Bayview Dispensary",
+        "city": "Salem",
+        "state": "MA",
+        "status": "Active",
+        "background": "North Shore retailer serving local regulars and weekend visitors. The team values approachable service, recognizable brands and seasonal products that fit naturally into its existing edible assortment.",
+        "next_action": "Plan a fall display and a short staff product refresher.",
+        "contact": "Jordan Lee",
+        "role": "Category Buyer",
+        "analytics_name": "Bayview Dispensary"
+      },
+      {
+        "id": "a3",
+        "name": "Prairie Cannabis",
+        "city": "Worcester",
+        "state": "MA",
+        "status": "Active",
+        "background": "Central Massachusetts retailer with a broad menu and a practical, value-conscious buying team. Staff focus on friendly recommendations, straightforward product education and convenient shopping for neighborhood customers. The buyer wants Betty’s fruit chews to have a clear place alongside the store’s everyday edible favorites.",
+        "next_action": "Review Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin together.",
+        "contact": "Casey Brooks",
+        "role": "Category Buyer",
+        "analytics_name": "Prairie Cannabis"
+      },
+      {
+        "id": "a4",
+        "name": "Coastal Collective",
+        "city": "Plymouth",
+        "state": "MA",
+        "status": "Active",
+        "background": "South Shore shop centered on a relaxed, personal retail experience. Its team serves a mix of returning local customers and visitors, with an emphasis on recognizable flavors and clear explanations of product formats.",
+        "next_action": "Select core fruit chews and one seasonal feature.",
+        "contact": "Morgan Ellis",
+        "role": "Category Buyer",
+        "analytics_name": "Coastal Collective"
+      },
+      {
+        "id": "a5",
+        "name": "Commonwealth Collective",
+        "city": "Cambridge",
+        "state": "MA",
+        "status": "Active",
+        "background": "An inviting neighborhood store with a thoughtfully edited assortment. The team prioritizes product knowledge, engaging displays and approachable language that helps customers compare flavors and ingredients.",
+        "next_action": "Prepare a staff guide to the Betty’s portfolio.",
+        "contact": "Avery Chen",
+        "role": "Category Buyer",
+        "analytics_name": "Commonwealth Collective"
+      },
+      {
+        "id": "a6",
+        "name": "Valley Green",
+        "city": "Northampton",
+        "state": "MA",
+        "status": "Active",
+        "background": "Western Massachusetts retailer with a strong community focus and an interest in distinctive, carefully selected brands. The store pairs a warm shopping experience with staff-led product discovery and an emphasis on customer questions.",
+        "next_action": "Refresh the fruit-chew shelf and plan staff education.",
+        "contact": "Riley Davis",
+        "role": "Category Buyer",
+        "analytics_name": "Valley Green"
+      },
+      {
+        "id": "a7",
+        "name": "Berkshire Bloom",
+        "city": "Pittsfield",
+        "state": "MA",
+        "status": "Active",
+        "background": "Berkshire-area shop balancing a local customer base with visitors exploring the region. The buying team looks for craftsmanship, consistent presentation and a product range that is easy for staff to explain.",
+        "next_action": "Compare core assortment coverage with seasonal opportunities.",
+        "contact": "Sam Rivera",
+        "role": "Category Buyer",
+        "analytics_name": "Berkshire Bloom"
+      },
+      {
+        "id": "a8",
+        "name": "Canal Street Cannabis",
+        "city": "Lowell",
+        "state": "MA",
+        "status": "Prospect",
+        "background": "Community-oriented retailer focused on dependable service and a convenient shopping experience. The team values clear merchandising, useful product information and a manageable assortment that supports repeat visits.",
+        "next_action": "Update the edible display and review reorder priorities.",
+        "contact": "Jamie Patel",
+        "role": "Category Buyer",
+        "analytics_name": "Canal Street Cannabis"
+      },
+      {
+        "id": "a9",
+        "name": "Seaport Leaf",
+        "city": "New Bedford",
+        "state": "MA",
+        "status": "Prospect",
+        "background": "South Coast retailer with a friendly service style and a broad mix of customers. The buyer prefers familiar flavors, practical sell sheets and product stories the staff can explain in a short conversation.",
+        "next_action": "Review product materials for a fruit-chew feature.",
+        "contact": "Alex Bennett",
+        "role": "Category Buyer",
+        "analytics_name": "Seaport Leaf"
+      },
+      {
+        "id": "a10",
+        "name": "Riverbend Wellness",
+        "city": "Springfield",
+        "state": "MA",
+        "status": "Prospect",
+        "background": "A welcoming Pioneer Valley shop focused on making cannabis shopping approachable. Staff place a premium on good listening, straightforward education and an assortment that offers options across different customer preferences.",
+        "next_action": "Build the next Betty’s staff training session.",
+        "contact": "Drew Sullivan",
+        "role": "Category Buyer",
+        "analytics_name": "Riverbend Wellness"
+      }
+    ],
+    "contacts_demo": [
+      {
+        "id": "c-a1",
+        "account_id": "a1",
+        "name": "Taylor Morgan",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a2",
+        "account_id": "a2",
+        "name": "Jordan Lee",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a3",
+        "account_id": "a3",
+        "name": "Casey Brooks",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a4",
+        "account_id": "a4",
+        "name": "Morgan Ellis",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a5",
+        "account_id": "a5",
+        "name": "Avery Chen",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a6",
+        "account_id": "a6",
+        "name": "Riley Davis",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a7",
+        "account_id": "a7",
+        "name": "Sam Rivera",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a8",
+        "account_id": "a8",
+        "name": "Jamie Patel",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a9",
+        "account_id": "a9",
+        "name": "Alex Bennett",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "id": "c-a10",
+        "account_id": "a10",
+        "name": "Drew Sullivan",
+        "role": "Category Buyer",
+        "email": "",
+        "phone": ""
+      }
+    ],
+    "meetings": [
+      {
+        "id": "m-a1",
+        "account_id": "a1",
+        "contact_id": "c-a1",
+        "date": "2026-10-06T09:30:00-04:00",
+        "objective": "October campaign display and fruit-chew assortment",
+        "prep": "Start with Taylor Morgan’s last request: Build a concise fruit-chew assortment for the front counter. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Boston, Massachusetts"
+      },
+      {
+        "id": "m-a2",
+        "account_id": "a2",
+        "contact_id": "c-a2",
+        "date": "2026-10-06T11:00:00-04:00",
+        "objective": "Fall seasonal assortment and staff education",
+        "prep": "Start with Jordan Lee’s last request: Plan a fall display and a short staff product refresher. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Salem, Massachusetts"
+      },
+      {
+        "id": "m-a3",
+        "account_id": "a3",
+        "contact_id": "c-a3",
+        "date": "2026-10-06T14:00:00-04:00",
+        "objective": "Betty’s portfolio review and merchandising",
+        "prep": "Start with Casey Brooks’s last request: Review Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin together. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Worcester, Massachusetts"
+      },
+      {
+        "id": "m-a4",
+        "account_id": "a4",
+        "contact_id": "c-a4",
+        "date": "2026-10-07T09:30:00-04:00",
+        "objective": "Core chews and seasonal feature planning",
+        "prep": "Start with Morgan Ellis’s last request: Select core fruit chews and one seasonal feature. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Plymouth, Massachusetts"
+      },
+      {
+        "id": "m-a5",
+        "account_id": "a5",
+        "contact_id": "c-a5",
+        "date": "2026-10-07T11:00:00-04:00",
+        "objective": "Staff product education",
+        "prep": "Start with Avery Chen’s last request: Prepare a staff guide to the Betty’s portfolio. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Cambridge, Massachusetts"
+      },
+      {
+        "id": "m-a6",
+        "account_id": "a6",
+        "contact_id": "c-a6",
+        "date": "2026-10-07T14:00:00-04:00",
+        "objective": "Shelf refresh and product discovery",
+        "prep": "Start with Riley Davis’s last request: Refresh the fruit-chew shelf and plan staff education. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Northampton, Massachusetts"
+      },
+      {
+        "id": "m-a7",
+        "account_id": "a7",
+        "contact_id": "c-a7",
+        "date": "2026-10-08T09:30:00-04:00",
+        "objective": "Core and seasonal assortment review",
+        "prep": "Start with Sam Rivera’s last request: Compare core assortment coverage with seasonal opportunities. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Pittsfield, Massachusetts"
+      },
+      {
+        "id": "m-a8",
+        "account_id": "a8",
+        "contact_id": "c-a8",
+        "date": "2026-10-08T11:00:00-04:00",
+        "objective": "Edible display and reorder planning",
+        "prep": "Start with Jamie Patel’s last request: Update the edible display and review reorder priorities. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Lowell, Massachusetts"
+      },
+      {
+        "id": "m-a9",
+        "account_id": "a9",
+        "contact_id": "c-a9",
+        "date": "2026-10-08T14:00:00-04:00",
+        "objective": "Fruit-chew feature and sell-sheet review",
+        "prep": "Start with Alex Bennett’s last request: Review product materials for a fruit-chew feature. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "New Bedford, Massachusetts"
+      },
+      {
+        "id": "m-a10",
+        "account_id": "a10",
+        "contact_id": "c-a10",
+        "date": "2026-10-08T09:30:00-04:00",
+        "objective": "Staff training and product questions",
+        "prep": "Start with Drew Sullivan’s last request: Build the next Betty’s staff training session. Bring Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin product materials. Walk through flavor, format and shelf presentation, review the latest notes, and finish by agreeing on the next follow-up.",
+        "status": "scheduled",
+        "address": "Springfield, Massachusetts"
+      }
+    ],
+    "account_updates": [
+      {
+        "id": "u-a1",
+        "account_id": "a1",
+        "date": "2026-10-05",
+        "title": "Product materials requested",
+        "summary": "Buyer asked for an October display plan and staff talking points.",
+        "next_action": "Build a concise fruit-chew assortment for the front counter."
+      },
+      {
+        "id": "u-a2",
+        "account_id": "a2",
+        "date": "2026-10-05",
+        "title": "Seasonal planning update",
+        "summary": "The team is ready to review a seasonal feature beside its core edible assortment.",
+        "next_action": "Plan a fall display and a short staff product refresher."
+      },
+      {
+        "id": "u-a3",
+        "account_id": "a3",
+        "date": "2026-10-05",
+        "title": "Buyer follow-up",
+        "summary": "Casey requested a side-by-side product overview and a clearer fall display recommendation.",
+        "next_action": "Review Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin together."
+      },
+      {
+        "id": "u-a4",
+        "account_id": "a4",
+        "date": "2026-10-05",
+        "title": "Product materials requested",
+        "summary": "The buyer wants a simple assortment proposal for the next merchandising reset.",
+        "next_action": "Select core fruit chews and one seasonal feature."
+      },
+      {
+        "id": "u-a5",
+        "account_id": "a5",
+        "date": "2026-10-05",
+        "title": "Seasonal planning update",
+        "summary": "Staff asked for a short reference sheet covering flavors and ingredients.",
+        "next_action": "Prepare a staff guide to the Betty’s portfolio."
+      },
+      {
+        "id": "u-a6",
+        "account_id": "a6",
+        "date": "2026-10-05",
+        "title": "Buyer follow-up",
+        "summary": "The edible shelf is being reorganized; the team requested updated product imagery.",
+        "next_action": "Refresh the fruit-chew shelf and plan staff education."
+      },
+      {
+        "id": "u-a7",
+        "account_id": "a7",
+        "date": "2026-10-05",
+        "title": "Product materials requested",
+        "summary": "The buyer asked for a core assortment check before adding seasonal products.",
+        "next_action": "Compare core assortment coverage with seasonal opportunities."
+      },
+      {
+        "id": "u-a8",
+        "account_id": "a8",
+        "date": "2026-10-05",
+        "title": "Seasonal planning update",
+        "summary": "The team wants a focused follow-up on display placement and reorder priorities.",
+        "next_action": "Update the edible display and review reorder priorities."
+      },
+      {
+        "id": "u-a9",
+        "account_id": "a9",
+        "date": "2026-10-05",
+        "title": "Buyer follow-up",
+        "summary": "The buyer requested product graphics to support an upcoming fruit-chew feature.",
+        "next_action": "Review product materials for a fruit-chew feature."
+      },
+      {
+        "id": "u-a10",
+        "account_id": "a10",
+        "date": "2026-10-05",
+        "title": "Product materials requested",
+        "summary": "The next staff meeting now includes time for a Betty’s product refresher.",
+        "next_action": "Build the next Betty’s staff training session."
+      }
+    ],
+    "prospects": [
+      {
+        "id": "p-a7",
+        "account_id": "a7",
+        "name": "Berkshire Bloom",
+        "city": "Pittsfield",
+        "state": "MA",
+        "contact": "Sam Rivera",
+        "role": "Category Buyer",
+        "email": "",
+        "reason": "The buyer is reviewing fruit chews for the next edible assortment update.",
+        "next_action": "Compare core assortment coverage with seasonal opportunities.",
+        "status": "Interested",
+        "last_touch": "2026-10-05"
+      },
+      {
+        "id": "p-a8",
+        "account_id": "a8",
+        "name": "Canal Street Cannabis",
+        "city": "Lowell",
+        "state": "MA",
+        "contact": "Jamie Patel",
+        "role": "Category Buyer",
+        "email": "",
+        "reason": "The buyer is reviewing fruit chews for the next edible assortment update.",
+        "next_action": "Update the edible display and review reorder priorities.",
+        "status": "Interested",
+        "last_touch": "2026-10-05"
+      },
+      {
+        "id": "p-a9",
+        "account_id": "a9",
+        "name": "Seaport Leaf",
+        "city": "New Bedford",
+        "state": "MA",
+        "contact": "Alex Bennett",
+        "role": "Category Buyer",
+        "email": "",
+        "reason": "The buyer is reviewing fruit chews for the next edible assortment update.",
+        "next_action": "Review product materials for a fruit-chew feature.",
+        "status": "Interested",
+        "last_touch": "2026-10-05"
+      },
+      {
+        "id": "p-a10",
+        "account_id": "a10",
+        "name": "Riverbend Wellness",
+        "city": "Springfield",
+        "state": "MA",
+        "contact": "Drew Sullivan",
+        "role": "Category Buyer",
+        "email": "",
+        "reason": "The buyer is reviewing fruit chews for the next edible assortment update.",
+        "next_action": "Build the next Betty’s staff training session.",
+        "status": "Interested",
+        "last_touch": "2026-10-05"
+      }
+    ],
+    "meeting_notes": [
+      {
+        "id": "n-a1",
+        "account_id": "a1",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Taylor Morgan to review the edible shelf. Build a concise fruit-chew assortment for the front counter. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a1",
+        "account_id": "a1",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Taylor Morgan. Buyer asked for an October display plan and staff talking points. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a2",
+        "account_id": "a2",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Jordan Lee to review the edible shelf. Plan a fall display and a short staff product refresher. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a2",
+        "account_id": "a2",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Jordan Lee. The team is ready to review a seasonal feature beside its core edible assortment. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a3",
+        "account_id": "a3",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Casey Brooks to review the edible shelf. Review Bedtime Betty’s, Bite-a-Mins and Perk Up Pumpkin together. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a3",
+        "account_id": "a3",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Casey Brooks. Casey requested a side-by-side product overview and a clearer fall display recommendation. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a4",
+        "account_id": "a4",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Morgan Ellis to review the edible shelf. Select core fruit chews and one seasonal feature. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a4",
+        "account_id": "a4",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Morgan Ellis. The buyer wants a simple assortment proposal for the next merchandising reset. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a5",
+        "account_id": "a5",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Avery Chen to review the edible shelf. Prepare a staff guide to the Betty’s portfolio. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a5",
+        "account_id": "a5",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Avery Chen. Staff asked for a short reference sheet covering flavors and ingredients. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a6",
+        "account_id": "a6",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Riley Davis to review the edible shelf. Refresh the fruit-chew shelf and plan staff education. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a6",
+        "account_id": "a6",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Riley Davis. The edible shelf is being reorganized; the team requested updated product imagery. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a7",
+        "account_id": "a7",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Sam Rivera to review the edible shelf. Compare core assortment coverage with seasonal opportunities. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a7",
+        "account_id": "a7",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Sam Rivera. The buyer asked for a core assortment check before adding seasonal products. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a8",
+        "account_id": "a8",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Jamie Patel to review the edible shelf. Update the edible display and review reorder priorities. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a8",
+        "account_id": "a8",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Jamie Patel. The team wants a focused follow-up on display placement and reorder priorities. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a9",
+        "account_id": "a9",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Alex Bennett to review the edible shelf. Review product materials for a fruit-chew feature. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a9",
+        "account_id": "a9",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Alex Bennett. The buyer requested product graphics to support an upcoming fruit-chew feature. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      },
+      {
+        "id": "n-a10",
+        "account_id": "a10",
+        "date": "2026-10-02T11:00:00-04:00",
+        "text": "Met with Drew Sullivan to review the edible shelf. Build the next Betty’s staff training session. The team asked for an easy-to-share product overview before the next discussion.",
+        "author": "Harry"
+      },
+      {
+        "id": "n2-a10",
+        "account_id": "a10",
+        "date": "2026-10-05T15:00:00-04:00",
+        "text": "Followed up with Drew Sullivan. The next staff meeting now includes time for a Betty’s product refresher. Next step: send the requested materials and confirm a time to review the display together.",
+        "author": "Harry"
+      }
+    ],
+    "follow_ups": [
+      {
+        "id": "f-a1",
+        "account_id": "a1",
+        "action": "Send Betty’s product overview and fall display ideas",
+        "due": "2026-10-06",
+        "status": "open",
+        "priority": "High",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a2",
+        "account_id": "a2",
+        "action": "Share Bedtime Betty’s and Bite-a-Mins product materials",
+        "due": "2026-10-06",
+        "status": "open",
+        "priority": "High",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a3",
+        "account_id": "a3",
+        "action": "Confirm the next staff product refresher",
+        "due": "2026-10-06",
+        "status": "open",
+        "priority": "High",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a4",
+        "account_id": "a4",
+        "action": "Send Betty’s product overview and fall display ideas",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a5",
+        "account_id": "a5",
+        "action": "Share Bedtime Betty’s and Bite-a-Mins product materials",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a6",
+        "account_id": "a6",
+        "action": "Confirm the next staff product refresher",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a7",
+        "account_id": "a7",
+        "action": "Send Betty’s product overview and fall display ideas",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a8",
+        "account_id": "a8",
+        "action": "Share Bedtime Betty’s and Bite-a-Mins product materials",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a9",
+        "account_id": "a9",
+        "action": "Confirm the next staff product refresher",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      },
+      {
+        "id": "f-a10",
+        "account_id": "a10",
+        "action": "Send Betty’s product overview and fall display ideas",
+        "due": "2026-10-07",
+        "status": "open",
+        "priority": "Normal",
+        "owner": "Harry"
+      }
+    ],
+    "field_reports": []
+  },
+  "dispensaries": [
+    {
+      "id": "a1",
+      "dispensary": "Harbor Wellness",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 840,
+      "est_avg_price": 24,
+      "est_total_value": 20160
+    },
+    {
+      "id": "a2",
+      "dispensary": "Bayview Dispensary",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 620,
+      "est_avg_price": 24,
+      "est_total_value": 14880
+    },
+    {
+      "id": "a3",
+      "dispensary": "Prairie Cannabis",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 510,
+      "est_avg_price": 24,
+      "est_total_value": 12240
+    },
+    {
+      "id": "a4",
+      "dispensary": "Coastal Collective",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 380,
+      "est_avg_price": 24,
+      "est_total_value": 9120
+    },
+    {
+      "id": "a5",
+      "dispensary": "Commonwealth Collective",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 455,
+      "est_avg_price": 24,
+      "est_total_value": 10920
+    },
+    {
+      "id": "a6",
+      "dispensary": "Valley Green",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 390,
+      "est_avg_price": 24,
+      "est_total_value": 9360
+    },
+    {
+      "id": "a7",
+      "dispensary": "Berkshire Bloom",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 310,
+      "est_avg_price": 24,
+      "est_total_value": 7440
+    },
+    {
+      "id": "a8",
+      "dispensary": "Canal Street Cannabis",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 285,
+      "est_avg_price": 24,
+      "est_total_value": 6840
+    },
+    {
+      "id": "a9",
+      "dispensary": "Seaport Leaf",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 265,
+      "est_avg_price": 24,
+      "est_total_value": 6360
+    },
+    {
+      "id": "a10",
+      "dispensary": "Riverbend Wellness",
+      "market": "MA",
+      "brand": "Betty’s Eddies",
+      "category": "Fruit chews",
+      "est_units": 240,
+      "est_avg_price": 24,
+      "est_total_value": 5760
+    }
+  ],
+  "categories": [
+    {
+      "id": "fruit-chews",
+      "category": "Fruit chews",
+      "est_units": 4295,
+      "est_total_value": 103080,
+      "brand_unit_share_pct": 100
+    }
+  ],
+  "daily": [],
+  "news": [
+    {
+      "id": "kab-2026",
+      "headline": "Betty’s renews Keep A Breast partnership for October",
+      "summary": "MariMed announced a fourth annual collaboration, pink Ache Away packaging, and a retail round-up initiative at participating Thrive dispensaries. The campaign supports breast health education.",
+      "published_at": "2026-09-24",
+      "source_url": "https://ir.marimedinc.com/news-events/press-releases/detail/308/marimeds-bettys-eddies-spreads-importance-of-cancer-screening-education-and-awareness-this-october-through-partnership-with-keep-a-breast-foundation",
+      "source_name": "MariMed official press release",
+      "category": "Betty’s Eddies",
+      "market": "Brand"
+    },
+    {
+      "id": "pumpkin-2026",
+      "headline": "Perk Up Pumpkin joins the fall lineup",
+      "summary": "The seasonal pumpkin spice latte chew joins the Massachusetts fall portfolio. Each chew has 5mg THC, 5mg CBC and 5mg CBG. Confirm availability locally.",
+      "published_at": "2026-08-06",
+      "source_url": "https://ir.marimedinc.com/news-events/press-releases/detail/304/marimed-embraces-pumpkin-season-by-unveiling-new-products-that-bring-seasonal-autumn-flavors-to-cannabis-consumers",
+      "source_name": "MariMed official press release",
+      "category": "Betty’s Eddies",
+      "market": "Brand"
+    },
+    {
+      "id": "vitamins-2026",
+      "headline": "Betty’s introduces Bite-a-Mins",
+      "summary": "MariMed expanded the core portfolio with tropical smoothie chews combining CBD, full-spectrum cannabis, Vitamin C, zinc and Vitamin D3. The July announcement responds to demand for higher-CBD options.",
+      "published_at": "2026-07-14",
+      "source_url": "https://ir.marimedinc.com/news-events/press-releases/detail/302/marimeds-bettys-eddies-expands-core-lineup-with-new-multi-vitamin-inspired-bettys-bite-a-mins",
+      "source_name": "MariMed official press release",
+      "category": "Betty’s Eddies",
+      "market": "Brand"
+    },
+    {
+      "id": "tjm-kab-2026",
+      "headline": "Betty’s Eddies campaign gets Massachusetts news coverage",
+      "published_at": "2026-09-27",
+      "source_name": "Talking Joints Memo · News coverage",
+      "source_url": "https://talkingjointsmemo.com/inbox-bettys-eddies-back-with-new-cancer-screening-awareness-collab/",
+      "summary": "Talking Joints Memo covered the October Keep A Breast collaboration, including pink Ache Away packaging and a participating Thrive retail round-up program."
+    },
+    {
+      "id": "berry-love-2026",
+      "headline": "Berry In Love Betty introduced as a seasonal strawberry chocolate chew",
+      "published_at": "2026-02-05",
+      "source_name": "GlobeNewswire · MariMed press release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/02/05/3232845/0/en/marimed-s-betty-s-eddies-introduces-new-limited-edition-valentine-s-seasonal-berry-in-love-betty.html",
+      "summary": "MariMed announced its first swirled Betty’s chew, combining strawberry and chocolate flavors. The announcement included Massachusetts retailers; this dated story does not confirm current stock."
+    },
+    {
+      "id": "bundle-up-2025",
+      "headline": "Bundle Up Betty’s brought cranberry orange flavors to the winter lineup",
+      "published_at": "2025-11-18",
+      "source_name": "GlobeNewswire · MariMed press release",
+      "source_url": "https://www.globenewswire.com/news-release/2025/11/18/3189883/0/en/MariMed-s-Betty-s-Eddies-Introduces-New-Limited-Edition-Winter-Seasonal-Cranberry-Orange-Fruit-Chew-Bundle-Up-Betty-s.html",
+      "summary": "The winter seasonal announcement described cranberry, orange and warming spices with THC and CBD. Massachusetts was included in the original release; confirm availability before discussing an order."
+    },
+    {
+      "id": "caramelt-2025",
+      "headline": "Betty’s Caramelt Away launched in Massachusetts",
+      "published_at": "2025-04-03",
+      "source_name": "GlobeNewswire · MariMed press release",
+      "source_url": "https://www.globenewswire.com/news-release/2025/04/03/3055023/0/en/marimed-s-betty-s-eddies-expands-top-selling-brand-with-introduction-of-thc-cbg-infused-caramel-chews.html",
+      "summary": "MariMed announced caramel chews infused with full-spectrum hash and CBG, debuting at select Massachusetts retailers ahead of National Caramel Day."
+    }
+  ],
+  "content": [
+    {
+      "title": "Betty’s brand overview",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official website",
+      "url": "https://www.bettyseddies.com/",
+      "content": "MariMed’s Betty’s Eddies produces handcrafted cannabis fruit chews with fruit and vegetable ingredients. Product recipes and availability differ by market."
+    },
+    {
+      "title": "Perk Up Pumpkin — For Good Vibes · Pumpkin Spice Latte",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/perk-up-pumpkin",
+      "content": "Perk Up Pumpkin. For Good Vibes · Pumpkin Spice Latte. Listed cannabinoids: THC + CBC + CBG. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Betty's Bite-a-Mins — For Wellness · Tropical Smoothie",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/bite-a-mins",
+      "content": "Betty's Bite-a-Mins. For Wellness · Tropical Smoothie. Listed cannabinoids: THC + CBD. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Berry In Love — For When Sparks Fly · Strawberry Chocolate Swirl",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/berryinlove",
+      "content": "Berry In Love. For When Sparks Fly · Strawberry Chocolate Swirl. Listed cannabinoids: THC + CBG. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Bundle Up Betty's — Cranberry Orange · For Winter Wind-Downs",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/bundleup",
+      "content": "Bundle Up Betty's. Cranberry Orange · For Winter Wind-Downs. Listed cannabinoids: CBD. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Beachtime Betty's — For Chill Summer Days · Strawberry Lemonade",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/beachtime-bettys",
+      "content": "Beachtime Betty's. For Chill Summer Days · Strawberry Lemonade. Listed cannabinoids: THC + CBG. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Caramelt Away — For Mellow Moments · Caramel",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/carameltaway",
+      "content": "Caramelt Away. For Mellow Moments · Caramel. Listed cannabinoids: CBG. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Betty's Bubbly — For Celebrations · Champagne",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/bettys-bubbly",
+      "content": "Betty's Bubbly. For Celebrations · Champagne. Listed cannabinoids: THC + THCV. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Sweater Weather Betty's — For Cozy Times · Apple Pie",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/sweater-weather-bettys",
+      "content": "Sweater Weather Betty's. For Cozy Times · Apple Pie. Listed cannabinoids: THC + CBG. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Ache Away Eddies — For Pain Relief · Cherry",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/chews-for-change",
+      "content": "Ache Away Eddies. For Pain Relief · Cherry. Listed cannabinoids: THC + CBD + CBC. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Bedtime Betty's — For Sleep · Raspberry Creme",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/raspberrycreme-bedtimebettys",
+      "content": "Bedtime Betty's. For Sleep · Raspberry Creme. Listed cannabinoids: THC + CBD + CBN. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Bedtime Betty's — For Sleep · Lemon Agave",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/lemonagave-bedtimebettys",
+      "content": "Bedtime Betty's. For Sleep · Lemon Agave. Listed cannabinoids: THC. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Ache Away Eddies PM — For Sleep & Pain Relief · Orange Creme",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/ache-away-eddies-pm",
+      "content": "Ache Away Eddies PM. For Sleep & Pain Relief · Orange Creme. Listed cannabinoids: THC + CBN + CBC. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Ache Away Eddies — For Pain Relief · Cherry",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/ache-away-eddies",
+      "content": "Ache Away Eddies. For Pain Relief · Cherry. Listed cannabinoids: THC + CBD + CBC. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Take it Easy Eddies — For Stress Relief · Pineapple Orange",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/take-it-easy-eddies",
+      "content": "Take it Easy Eddies. For Stress Relief · Pineapple Orange. Listed cannabinoids: THC + CBG + CBDV. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Go Betty Go — For Energy · Watermelon",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/go-betty-go",
+      "content": "Go Betty Go. For Energy · Watermelon. Listed cannabinoids: THC + THCV. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Smashin' Passion — for pleasure · passion fruit",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/smashin-passion",
+      "content": "Smashin' Passion. for pleasure · passion fruit. Listed cannabinoids: THC. Verify the current package and state product page for serving size, potency and availability."
+    },
+    {
+      "title": "Betty Good Times — For Anytime · Strawberry, Peach Mango",
+      "category": "Brand",
+      "source_name": "Betty’s Eddies official product page",
+      "url": "https://www.bettyseddies.com/products/betty-good-times",
+      "content": "Betty Good Times. For Anytime · Strawberry, Peach Mango. Listed cannabinoids: THC. Verify the current package and state product page for serving size, potency and availability."
+    }
+  ],
+  "totals": {
+    "estimated_units": 4295,
+    "estimated_value": 103080,
+    "weighted_average_price": 24
+  },
+  "period": {
+    "start": "2026-09-08",
+    "end": "2026-10-05"
+  },
+  "source": "Synthetic Betty’s Eddies demo",
+  "demo": true,
+  "retrieved_at": "2026-10-06T12:00:00Z",
+  "market": "Massachusetts"
+}
