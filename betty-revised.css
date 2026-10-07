@@ -280,3 +280,13 @@ body.cc-admin .cc-admin-columns .cc-panel:nth-child(3n+3)>h2{background:#caeae2!
  body.cc-admin .cc-brand .betty-attribution{font-size:13px!important}
  body.cc-admin .cc-admin-sidebar .betty-territory{font-size:8px!important;margin-top:4px}
 }
+
+/* Invite the first voice interaction; stop as soon as the microphone is tapped. */
+body:not(.cc-admin) .cc-voice[data-state='idle'] .cc-mic.betty-mic-inviting{
+ animation:betty-mic-invite 2.4s ease-in-out infinite!important;
+ transform-origin:center;
+}
+@keyframes betty-mic-invite{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+@media(prefers-reduced-motion:reduce){
+ body:not(.cc-admin) .cc-voice[data-state='idle'] .cc-mic.betty-mic-inviting{animation:none!important}
+}
