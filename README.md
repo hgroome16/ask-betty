@@ -46,13 +46,13 @@ No GitHub repository has been created or pushed by this packaging task. No crede
 
 ## Hosted backend status
 
-The hosted backend is not deployed. Uploading source to GitHub does not activate AI, database persistence or hosted transcription. GitHub Pages can serve the static UI, but cannot run the /api routes or the Windows transcription service.
+The live demo is https://ask-betty-pearl.vercel.app/. Betty's API routes run in this project and no longer depend on the separate C&C deployment. Without database configuration, account retrieval and prepared section answers use the presentation seed. Shared note and commitment persistence requires POSTGRES_URL_NON_POOLING (or POSTGRES_URL).
 
-The current hosted adapters in lib/betty-proxy.cjs target https://quickhits-vercel-mobile.vercel.app/api/betty-service. Adding Betty endpoints to that existing service project still requires approval. Do not deploy this whole repository over the existing C&C project.
+OpenAI microphone transcription is configured in the live production environment with the user's explicit approval. The API key is an encrypted hosting environment variable and is never included in this package. Hosted recording sends audio to OpenAI for transcription; browser narration supplies spoken answers. Preview environments require their own voice configuration. The local preview retains Windows transcription.
 
-For the reviewed shared-service architecture, the additive backend files are api/betty-service.js; lib/betty-backend.cjs; lib/betty-demo-intent.cjs; lib/betty-seed.json; lib/betty-transcribe.cjs. It also depends on the existing database.cjs / supabase-ca.crt and pg dependency. Configure OPENAI_API_KEY and POSTGRES_URL_NON_POOLING on the backend host; the optional model defaults to gpt-5.4-mini. Betty writes only public.quickhits_betty_demo_records.
+To host another instance, configure OPENAI_API_KEY privately on that project and redeploy. Register its exact origin in lib/betty-origin.cjs. Never put a key in browser code or GitHub. GitHub Pages alone cannot run these server routes.
 
-Frontend API origins currently allow https://ask-betty-quickhits.vercel.app and the local preview. Update the origin allowlists and proxy destination together if choosing another host. Backend database table creation and seed initialization happen on first use. Review hosted access controls before exposing a shared writable demo.
+Live validation on October 7: a demo recording was transcribed as "What meetings do I have today?" and answered through the live API with Daily Brief routing. Physical microphone permission and input quality remain device-specific.
 
 ## Assets and validation
 
