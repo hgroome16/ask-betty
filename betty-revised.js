@@ -56,7 +56,7 @@ document.addEventListener('click',event=>{
 },true);
 ccVoice=function(){
  const id=ccAskOverlay?'betty-mic-curve-overlay':'betty-mic-curve-home';
- const label='<svg class="betty-mic-label" viewBox="0 0 300 300" aria-hidden="true" focusable="false"><defs><path id="'+id+'" d="M 36 217 Q 150 345 264 217"/></defs><use href="#'+id+'" class="betty-mic-ribbon-edge"/><use href="#'+id+'" class="betty-mic-ribbon"/><text dominant-baseline="central"><textPath href="#'+id+'" startOffset="50%" text-anchor="middle" textLength="212" lengthAdjust="spacingAndGlyphs">TAP TO SPEAK</textPath></text></svg>';
+ const label='<svg class="betty-mic-label" viewBox="0 0 300 300" aria-hidden="true" focusable="false"><defs><path id="'+id+'" d="M 36 217 Q 150 345 264 217"/></defs><use href="#'+id+'" class="betty-mic-ribbon-edge"/><use href="#'+id+'" class="betty-mic-ribbon"/><text dominant-baseline="central" dy="4"><textPath href="#'+id+'" startOffset="50%" text-anchor="middle" textLength="212" lengthAdjust="spacingAndGlyphs">TAP TO SPEAK</textPath></text></svg>';
  return bettyBadgeVoice().replace(/(<button class="cc-mic"[^>]*>)([\s\S]*?)(<\/button>)/,(_,start,content,end)=>(bettyMicEngaged?start:start.replace('class="cc-mic"','class="cc-mic betty-mic-inviting"'))+content+label+end).replace('<h1>TAP TO SPEAK</h1>','<h1 class="betty-voice-state-title">TAP TO SPEAK</h1>');
 };
 render();
