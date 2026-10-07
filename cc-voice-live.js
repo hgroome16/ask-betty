@@ -12,11 +12,13 @@ function ccVoiceState(mode,message){
 function ccPrimeVoicePlayback(){if(!window.speechSynthesis)return;try{const prime=new SpeechSynthesisUtterance('Ready');prime.volume=0;window.speechSynthesis.resume();window.speechSynthesis.speak(prime);}catch{}}
 
 
-ccStartDictation=function(target){
+ccStartDictation=async function(target){
  if(ccRecognition){const current=ccRecognition;current.stop();if(!current.active&&ccRecognition===current)ccRecognition=null;return;}
  ccDictationTarget=target;
  stopAudio();ccPrimeVoicePlayback();const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
- if(openAIState.connected||!Recognition){ccRecordedDictation(target);return;}
+ let hostedTranscription=false;try{const response=await fetch('/api/voice-status',{cache:'no-store'});if(response.ok)hostedTranscription=(await response.json()).transcriptionConnected===true;}catch{}
+ if(document.hidden)return;
+ if(hostedTranscription||openAIState.connected||!Recognition){ccRecordedDictation(target);return;}
  const session=new QuickHitsSpeechSession({Recognition,read:()=>document.getElementById(target)?.value||'',write:text=>{const input=document.getElementById(target);if(!input){session.stop();return;}ccSpeechWriting=true;input.value=text.slice(0,input.maxLength>0?input.maxLength:10000);input.dispatchEvent(new Event('input',{bubbles:true}));ccSpeechWriting=false;},complete:()=>{if(target==='cc-input'){window.ccPlayNextReply=true;document.getElementById('cc-question')?.requestSubmit();}},state:(mode,reason)=>{if(!session.active&&ccRecognition===session)ccRecognition=null;if(mode==='error'&&['network','service-not-allowed','service-unavailable'].includes(reason)){ccRecordedDictation(target);return;}ccVoiceState(mode,mode==='error'?ccRecognitionMessage(reason):undefined);}});
  ccRecognition=session;session.start();
 };

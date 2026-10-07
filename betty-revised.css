@@ -242,3 +242,8 @@ body:not(.cc-admin) .cc-voice .cc-mic svg.betty-mic-label{position:absolute!impo
 #betty-welcome .betty-welcome-close:focus-visible{outline:2px solid #182b59!important;outline-offset:3px!important}
 #betty-welcome .betty-welcome-close:hover{background:#ab0a3d!important}
 #betty-welcome-title:focus{outline:none!important}
+
+/* The voice action fills the curved ribbon in Betty's fruit and ocean colors. */
+.betty-mic-ribbon-edge{stroke:#f46b72;stroke-width:39}
+.betty-mic-ribbon{stroke:#147b80;stroke-width:33}
+.betty-mic-label text{font-size:26px;letter-spacing:.5px;fill:#fffbed;paint-order:stroke fill;stroke:#004d71;stroke-width:.6px}

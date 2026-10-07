@@ -1,1 +1,1 @@
-module.exports=require('../lib/betty-proxy.cjs')('transcribe');
+module.exports=require('../lib/betty-transcribe.cjs');
