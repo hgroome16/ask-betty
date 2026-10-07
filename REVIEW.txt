@@ -1,0 +1,72 @@
+Ask Betty creative brief review — October 6, 2026
+
+Implemented:
+- One illustrated Ask Betty logo with by + original QuickHits artwork; small Massachusetts indicator. Interior lockup lives in the compact sticky header.
+- Centered 230px desktop / 184px phone microphone, visible TAP TO SPEAK, four clickable example questions and typing.
+- Eleven destination cards directly after voice, in the requested order. Two columns at 390px; one at 320px.
+- Home and session contain no map, alerts, upcoming visits, voice-state gallery or extra Merch entry.
+- My Accounts has searchable List / Map views and all ten linked Massachusetts stores.
+- Buyer requests remain in Daily Brief updates and account What Changed. Broader product / market stories are under Market Snaps. Meetings link directly to preparation.
+- Brand imagery is separate from Brand → Merch, with original Copy / Download / Send and Listen actions.
+- Explicit Stop audio restored. Page sharing and asset actions use compact menus.
+- Contextual Ask retains the originating account and page information, shows its context, closes on Escape, traps keyboard focus and returns focus.
+
+Verified in browser:
+- Home and session hierarchy, original QuickHits artwork, mobile sizes, destination order and no horizontal scrolling at 390px and 320px.
+- Linked Massachusetts map opens Prairie Cannabis in Worcester; meeting prep opens the correct account with preparation first.
+- Typed question and keyboard Send return a readable prepared answer with source, Listen Again, Copy and email draft access.
+- Contextual Ask opens with Listening state and closes back to the original account, restoring focus.
+- Page Listen changes to Stop; explicit Stop audio restores Listen.
+- Compact menus open with Enter and close with Escape. Brand Send opens the existing email draft; closing preserves the Brand page.
+
+Automated checks:
+- All JavaScript syntax passes.
+- Backend namespace isolation, allowed writes, duplicate note requests, invalid accounts, follow-up updates and excluded sources pass.
+- Microphone denial, missing capture device, network and recognition-start errors preserve typed drafts without submitting.
+- Ask resolves the focused account only from known Massachusetts records and bounds supplied page context.
+
+Remaining device validation:
+- A person must speak a question and confirm both transcription and audible playback on their target phone / desktop. Agent checks establish UI/controller states, not heard sound.
+- Local replies are prepared responses; production AI, hosted transcription and shared database deployment remain pending. Local Windows transcription is now connected and verified with a controlled WAV recording.
+
+October 6 bold design and complete rep-tool audit
+- Corrected attribution to the actual QuickHits SVG used in Johnny Blue Skies, reduced its size, restored saturated fruit colors and tropical artwork, and enlarged the microphone to 300px desktop / 240px phone.
+- Ask activates the microphone and returns to the original route on every one of the eleven QuickHits destinations. Contextual typed questions and Escape return passed on phone. Navigation keeps the QuickHits label after an answer.
+- Listen/Stop passed on all ten information pages. All 17 product and 10 merch card Listen/Copy controls passed. Product Send includes the selected product. Merch download saved successfully.
+- All ten Massachusetts map links open their matching account. Search, meeting pagination, written briefs, preparation, note review/save, report draft persistence/save and follow-up completion/reopening passed.
+- Fixed active field microphones being overwritten by the inherited icon observer; Stop recording remains visible. Fixed product action menus being covered by the next row of cards.
+- Fixed clipped header navigation at 320px. All eleven main destinations fit the 390px viewport; the 320px home uses one column.
+- Controlled audio fixture transcribed “What meetings do I have today,” then returned the meeting answer. No actual human microphone utterance or heard output is claimed.
+- Export API attachment headers and exact content, wrong-method rejection, and foreign-origin rejection passed. Text-export completion is not exposed by this in-app automation; verify its native download prompt on the target browser. Product/merch download targets are ordinary local image files.
+- Backend contract, contextual Ask and speech-failure tests pass; no browser console errors in the final phone check.
+
+October 6 navigation, voice-answer and news revision
+- Full Ask Betty / by QuickHits / Massachusetts lockup links to #home, including the interior header. Verified desktop and phone.
+- Home heading reads What you need right now; friendly sun, fruit, flower, wave and store motifs replace generic line glyphs.
+- Requested-page commands navigate instead of returning a generic answer. Verified Take me to News That Matters.
+- Account commitment answers verified for all ten accounts, with explicit named account overriding originating account context. Harbor and owe homophones included.
+- Answers automatically request playback. Valley Green answer reached browser playback-complete state; actual audible sound still needs human confirmation.
+- Browser-format 16k PCM and original WAV fixtures pass Windows transcription. Expanded local command grammar with account names and destination requests. Human live microphone reliability remains unverified.
+- Four dated free-source articles added; publishers and press-release labels remain visible. Google News itself could not be loaded; direct verified sources and a discovery link are available.
+- External OpenAI transcription and natural TTS connection was blocked by automatic approval review. It is disabled; no recordings or answer text are sent to that service. Approval pending.
+- Cheech and Chong free-news source pack saved alongside this demo; the separate C&C build has not been modified.
+
+Approved icon correction
+- Removed emoji replacements from all eleven home destination cards. Icons now display actual artwork from the user-approved October 6 locked design through CSS image windows.
+- Verified the rendered cards: sun, alert bell, storefront, leaf, wave, product box, hibiscus, handshake, calendar and binocular artwork; no adjacent reference text visible.
+
+Natural section requests
+- 21 example requests resolve to their matching section and prepared record-based answers. Covers today, meetings, account updates/attention, follow-ups, news, prospects, accounts, market movement, products, brand, merch, reports, meeting notes, more tools and named meeting preparation.
+- Answers appear on the destination page and read automatically with Listen again, Stop, Copy, email draft and Dismiss controls.
+- Today uses America/New_York dates. Daily Brief meeting count/pagination now includes today's three appointments, with future meeting records retained on account pages.
+- Browser verification: day request opens #brief; updates request selects Accounts With Updates; saved-notes request opens #visits, reports all 21 notes and starts Microsoft Zira playback. Stop ends playback.
+- Top-ten SKU ranking is unavailable in current category-level records. The answer reports recorded fruit-chew totals and explains the limitation.
+- 21 intent routes, today filtering, empty states, syntax, and PCM transcription tests pass.
+
+Retail ROI section
+- New QuickHits destination plus Market Snaps / More entry points. Approved reference chart icon used.
+- Editable baseline, pop-up and support costs/uplift, discount/redemption, click attribution and competitor offer assumptions.
+- Compares independent scenarios by incremental contribution, ROI and break-even uplift. Discount funding reduces revenue once; tracked purchases do not inflate forecasts.
+- Default model: pop-up +220 contribution / 44% ROI, support +192 / 80%, discount +142 / 13.4%. Raising discount to 35% produces -614 contribution. These are planning assumptions, not verified market results.
+- Browser check: update/reset, invalid click counts, contextual ROI answer, 390px and 320px layouts pass. No horizontal overflow after narrow header fix. Model tests cover break-even, zero spend/clicks, invalid values and nonpositive margins.
+- Assumptions persist locally. No live campaign analytics or competitor feed connected.

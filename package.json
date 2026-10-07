@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "pg": "^8.16.3",
+    "fast-xml-parser": "^5.3.0"
+  },
+  "scripts": {
+    "preview": "node scripts/preview.cjs",
+    "start": "node scripts/preview.cjs",
+    "check": "node scripts/check.cjs"
+  },
+  "name": "ask-betty-quickhits-demo",
+  "version": "0.1.0",
+  "description": "Massachusetts Ask Betty brand and sales demo"
+}

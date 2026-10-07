@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "cleanUrls": true,
+  "functions": {
+    "api/*.js": {
+      "includeFiles": "lib/**",
+      "maxDuration": 60
+    }
+  }
+}

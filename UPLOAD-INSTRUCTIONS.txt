@@ -1,0 +1,40 @@
+ASK BETTY — UPLOAD TO GITHUB
+Prepared October 7, 2026
+
+1. Extract Ask-Betty-GitHub.zip using Windows "Extract All".
+   Upload the extracted project contents, not the ZIP itself.
+
+2. Install GitHub Desktop from https://desktop.github.com/ and sign in.
+
+3. On https://github.com/new create a repository called ask-betty.
+   Choose Private unless you want the source publicly visible.
+   Check "Add a README file", then create the repository.
+
+4. In that repository, choose Code > Open with GitHub Desktop.
+   Choose a local folder, then click Clone.
+
+5. In File Explorer, copy all extracted project files and folders into
+   the cloned ask-betty folder. Replace the starter README when prompted.
+   index.html and package.json should be directly inside ask-betty,
+   beside the assets, api, lib and scripts folders.
+   Keep .gitignore and .env.example; they belong in the project too.
+
+6. Return to GitHub Desktop. In Summary enter:
+   Add Ask Betty sales companion
+   Click Commit to main, then Push origin.
+
+7. Click View on GitHub and confirm the files appear.
+
+This uploads the source. It does not publish a live website.
+The app uses server API routes, so GitHub Pages alone cannot run the
+complete experience. Hosting and backend configuration are a separate step.
+
+To run the project locally with Node.js 24 installed:
+  npm install
+  npm run check
+  npm start
+Then open http://127.0.0.1:4175/#home
+
+Official instructions:
+https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop
+https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop
